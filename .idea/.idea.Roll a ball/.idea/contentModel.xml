@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Любовь\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Любовь\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_Roll a ball.1449330609.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Любовь\Desktop\Roll a ball" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Code" t="Include">
+          <e p="Box.cs" t="Include" />
+          <e p="EnemyBody.cs" t="Include" />
+          <e p="EnemyHead.cs" t="Include" />
+          <e p="IDamage.cs" t="Include" />
+          <e p="IEnemy.cs" t="Include" />
+          <e p="ILoggerSecond.cs" t="Include" />
+          <e p="Test1" t="Include">
+            <e p="IPlayer.cs" t="Include" />
+          </e>
+          <e p="Test2" t="Include">
+            <e p="Example.cs" t="Include" />
+            <e p="TemplateExmple.cs" t="Include" />
+          </e>
+          <e p="Test3" t="Include">
+            <e p="ExampleInterface.cs" t="Include" />
+          </e>
+          <e p="Weapon.cs" t="Include" />
+        </e>
+        <e p="r-106671616.txt" t="Include" />
+        <e p="r1609565696.txt" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BadBonus.cs" t="Include" />
+          <e p="CameraController.cs" t="Include" />
+          <e p="DisplayBonuses.cs" t="Include" />
+          <e p="DisposeExample.cs" t="Include" />
+          <e p="ExampleDeepCopy.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
+          <e p="GoodBonus.cs" t="Include" />
+          <e p="GoodBonusComparer.cs" t="Include" />
+          <e p="GoodBonusesEqualityComparer.cs" t="Include" />
+          <e p="IAction.cs" t="Include" />
+          <e p="IFlay.cs" t="Include" />
+          <e p="IFlicker.cs" t="Include" />
+          <e p="IInitialization.cs" t="Include" />
+          <e p="IInteractable.cs" t="Include" />
+          <e p="InteractiveObject.cs" t="Include" />
+          <e p="IRotation.cs" t="Include" />
+          <e p="IView.cs" t="Include" />
+          <e p="ListInteractableObject.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerBall.cs" t="Include" />
+          <e p="Vector.cs" t="Include" />
+        </e>
+        <e p="Starter.cs" t="Include" />
+        <e p="Test" t="Include">
+          <e p="DoorController.cs" t="Include" />
+          <e p="Starter.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Roll a ball.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
