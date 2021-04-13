@@ -4,9 +4,11 @@ using Random = UnityEngine.Random;
 
 namespace Geekbrains
 {
-    public sealed class GoodBonus : InteractiveObject, IFlay, IFlicker, IEquatable<GoodBonus>
+    public sealed class GoodBonus : InteractiveObject, IFlay, IFlicker, IWinCondition, IEquatable<GoodBonus>
     {
         public int Point;
+        public bool IsRequieredToWin { get; set;}
+        [SerializeField] private bool _isRequieredToWin = false;
         private Material _material;
         private float _lengthFlay;
 
@@ -14,6 +16,11 @@ namespace Geekbrains
         {
             _material = GetComponent<Renderer>().material;
             _lengthFlay = Random.Range(1.0f, 5.0f);
+        }
+        
+        public void CheckCondition() 
+        {
+            IsRequieredToWin = _isRequieredToWin;        
         }
         
         protected override void Interaction()
